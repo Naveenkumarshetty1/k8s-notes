@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: aqua-deployment
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: web-app
+  template:
+    metadata:
+      labels:
+        app: web-app
+    spec:
+      containers:
+      - name: dev-container
+        image: nginx:latest
+        ports:
+        - containerPort: 8080
