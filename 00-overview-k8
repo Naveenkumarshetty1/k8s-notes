@@ -1,0 +1,30 @@
+Day-1
+Kubernetes Archetecture 
+==============================
+
+Master Node :
+-API server 
+-controller 
+-scheduler 
+-etcd
+
+Worker Node:
+-kubelet
+-kubeproxy
+--------------------------------------------------------------------
+
+Day-2
+
+Workload Components 
+==========================
+-pods
+-Replicaset
+-Deployemets
+---------------------------------------------------------------------
+  
+Day-3
+-Services:
+/cluster-IP
+/Nodeport
+/Load balancer
+--------------------------------------------------------------------
