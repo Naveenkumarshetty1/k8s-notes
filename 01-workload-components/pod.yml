@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: aqua-pod
+spec:
+  containers:
+  - name: dev-container
+    image: nginx:latest
+    ports:
+    - containerPort: 8080
